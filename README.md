@@ -15,7 +15,7 @@
 
 ```sh
 # install mdbook in this folder
-bash ./install.sh
+bash ./mdbook.sh
 
 # compile for development
 ./mdbook serve
