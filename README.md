@@ -16,7 +16,7 @@ A template repository for publicly available documentations.
 #### Usage
 
 ```sh
-# install mdbook in this folder
+# download and extract mdbook binary in this folder
 bash ./mdbook.sh
 
 # compile for development
