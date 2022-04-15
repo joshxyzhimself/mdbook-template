@@ -1,5 +1,7 @@
 # mdbook-template
 
+A template repository for publicly available documentations.
+
 #### Repository Setup
 
 - Create a new repository from mdbook-template.
@@ -28,3 +30,7 @@ bash ./mdbook.sh
 
 - https://rust-lang.github.io/mdBook/
 - https://rust-lang.github.io/mdBook/format/summary.html
+
+#### License
+
+MIT
