@@ -1,13 +1,21 @@
 # mdbook-template
 
+#### Repository Setup
+
+- Create a new repository from mdbook-template.
+  - https://github.com/joshxyzhimself/mdbook-template/generate
+- Configure your GitHub Pages source.
+  - https://github.com/joshxyzhimself/mdbook-template/settings/pages
+  - Use the branch `gh-pages`
+  - Use the folder `/ (root)`
+- Configure your `book.toml` file.
+  - Set the authors, title, description, updated repository urls, cname.
+
 #### Usage
 
 ```sh
-# clone repository
-git clone git@github.com:joshxyzhimself/mdbook-template.git
-
-# open repository
-cd ./mdbook-template
+# install mdbook in this folder
+bash ./install.sh
 
 # compile for development
 ./mdbook serve
