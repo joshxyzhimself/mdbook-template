@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  build-deploy-docs:
     runs-on: ubuntu-latest
     defaults:
       run:
