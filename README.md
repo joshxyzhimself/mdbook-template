@@ -2,7 +2,7 @@
 
 A template repository for publicly available documentations.
 
-#### Repository Setup
+#### Setup
 
 - Create a new repository from mdbook-template.
   - https://github.com/joshxyzhimself/mdbook-template/generate
@@ -16,13 +16,16 @@ A template repository for publicly available documentations.
 #### Usage
 
 ```sh
-# download and extract mdbook binary in this folder
+# navigate to docs folder
+cd ./docs/
+
+# mdbook download
 bash ./mdbook.sh
 
-# compile for development
+# mdbook development
 ./mdbook serve
 
-# compile for production
+# mdbook production
 ./mdbook build
 ```
 

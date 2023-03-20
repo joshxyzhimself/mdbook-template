@@ -3,11 +3,11 @@ authors = ["joshxyzhimself"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Example Title"
-description = "Example description."
+title = "Docs"
+description = "The quick brown fox jumped over the lazy dog."
 
 [output.html]
 git-repository-icon = "fa-github"
 git-repository-url = "https://github.com/joshxyzhimself/mdbook-template"
-edit-url-template = "https://github.com/joshxyzhimself/mdbook-template/edit/main/{path}"
-# cname = "mdbook-template.jxyz.co"
+edit-url-template = "https://github.com/joshxyzhimself/mdbook-template/edit/main/docs/{path}"
+# cname = "docs.example.com"

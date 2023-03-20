@@ -13,15 +13,18 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
+      - name: directory
+        run: cd ./docs/
+
       - name: mdbook download
         run: bash ./mdbook.sh
       
       - name: mdbook build
         run: ./mdbook build
 
-      - name: deploy github pages
+      - name: mdbook deploy
         if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: book
+          publish_dir: ./docs/book/
