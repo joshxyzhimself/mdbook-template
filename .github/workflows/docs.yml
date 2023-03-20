@@ -9,12 +9,13 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./docs/
     steps:
       - name: checkout
         uses: actions/checkout@v2
-
-      - name: directory
-        run: cd ./docs/
 
       - name: mdbook download
         run: bash ./mdbook.sh
